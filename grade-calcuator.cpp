@@ -16,6 +16,11 @@ int main()
         std::cout << "Enter a students name or type 'q' to quit: ";
         std::getline(std::cin, name);
 
+        if (name == "q" || name == "Q")
+        {
+            break;
+        }
+
         std::cout << "Enter students score: ";
         std::cin >> score;
         std::cin.ignore();
