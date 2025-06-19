@@ -17,7 +17,8 @@ int main()
         std::getline(std::cin, name);
 
         std::cout << "Enter students score: ";
-        std::cin, score;
+        std::cin >> score;
+        std::cin.ignore();
     }
 
     return 0;
