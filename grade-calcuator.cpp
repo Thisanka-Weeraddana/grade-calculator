@@ -3,12 +3,14 @@
 
 char calculate_grade(int scores[], int student_counter)
 {
-    int sum = 0;
+    double sum = 0;
 
     for (int i = 0; i < student_counter; i++)
     {
         sum += scores[i];
     }
+
+    double average = sum / student_counter;
 }
 
 int main()
