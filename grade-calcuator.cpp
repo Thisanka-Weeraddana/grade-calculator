@@ -11,6 +11,19 @@ char calculate_grade(int scores[], int student_counter)
     }
 
     double average = sum / student_counter;
+
+    if (average >= 90)
+    {
+        return 'A';
+    }
+    else if (average >= 80)
+    {
+        return 'B';
+    }
+    else
+    {
+        return 'F';
+    }
 }
 
 int main()
