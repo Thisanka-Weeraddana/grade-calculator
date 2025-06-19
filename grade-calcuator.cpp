@@ -1,6 +1,16 @@
 #include <iostream>
 #include <string>
 
+char calculate_grade(int scores[], int student_counter)
+{
+    int sum = 0;
+
+    for (int i = 0; i < student_counter; i++)
+    {
+        sum += scores[i];
+    }
+}
+
 int main()
 {
     int max_student = 30;
