@@ -30,5 +30,11 @@ int main()
         student_counter++;
     }
 
+    std::cout << "*** Student records***" << "\n";
+    for (int i = 0; i < student_counter; i++)
+    {
+        std::cout << names[i] << ": " << scores[i] << "\n";
+    }
+
     return 0;
 }
