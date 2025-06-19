@@ -12,6 +12,12 @@ int main()
     {
         std::string name;
         int score;
+
+        std::cout << "Enter a students name or type 'q' to quit: ";
+        std::getline(std::cin, name);
+
+        std::cout << "Enter students score: ";
+        std::cin, score;
     }
 
     return 0;
