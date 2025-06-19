@@ -55,6 +55,12 @@ int main()
         student_counter++;
     }
 
+    if (student_counter == 0)
+    {
+        std::cout << "No students were entered cannot calculate average grade.\n";
+        return 0;
+    }
+
     std::cout << "*** Student records***" << "\n";
     for (int i = 0; i < student_counter; i++)
     {
