@@ -20,6 +20,14 @@ char calculate_grade(int scores[], int student_counter)
     {
         return 'B';
     }
+    else if (average >= 70)
+    {
+        return 'C';
+    }
+    else if (average >= 60)
+    {
+        return 'D';
+    }
     else
     {
         return 'F';
