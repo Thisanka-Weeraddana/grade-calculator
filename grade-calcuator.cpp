@@ -67,5 +67,8 @@ int main()
         std::cout << names[i] << ": " << scores[i] << "\n";
     }
 
+    char grade = calculate_grade(scores, student_counter);
+    std::cout << "\nAverage Grade: " << grade << "\n";
+
     return 0;
 }
