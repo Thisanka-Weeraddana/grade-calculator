@@ -46,7 +46,7 @@ int main()
             break;
         }
 
-        std::cout << "Enter students score: ";
+        std::cout << "Enter students score (0-100): ";
         std::cin >> score;
         std::cin.ignore();
 
