@@ -24,6 +24,10 @@ int main()
         std::cout << "Enter students score: ";
         std::cin >> score;
         std::cin.ignore();
+
+        names[student_counter] = name;
+        scores[student_counter] = score;
+        student_counter++;
     }
 
     return 0;
